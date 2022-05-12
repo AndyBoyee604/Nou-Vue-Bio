@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+  color: rgb(41, 41, 41);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section div img {
+  border-radius: 19%;
+  border: solid 11px;
+  position: sticky;
+  top: 100px;
+  left: 100px;
+}
+
+.hero {
+  background-image: url(../images/F100012197-close_up_of_heart_formed_with_binary_code.jpg);
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+}
+
+/* styles for name */
+header {
+  padding: 20px;
+  background-color: rgb(41, 41, 41);
+  ;
+}
+
+header h1 {
+  font-weight: normal;
+  font-size: 40px;
+  color: brown;
+  margin: 0;
+  display: inline;
+}
+
+/* styles for nav bar */
+header a {
+  text-decoration: none;
+  color: brown
+}
+
+header nav {
+  float: right;
+  margin: 7px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 24px;
+}
