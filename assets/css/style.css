@@ -10,12 +10,21 @@ body {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-section div img {
-  border-radius: 19%;
+article div img {
+  border-radius: 15%;
   border: solid 11px;
   position: sticky;
   top: 100px;
   left: 100px;
+}
+
+.quote {
+  color: #388db9;
+  position: absolute;
+  font-size: 45px;
+  bottom: 590px;
+  right: 50px;
+  -webkit-text-stroke: 3px black;
 }
 
 .hero {
