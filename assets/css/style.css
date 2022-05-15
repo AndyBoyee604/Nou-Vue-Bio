@@ -6,35 +6,35 @@
 
 body {
   background-color: rgb(41, 41, 41);
-  color: rgb(41, 41, 41);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: brown;
 }
 
-article div img {
+section div img {
   border-radius: 15%;
-  border: solid 11px;
+  border: solid 11px rgb(41, 41, 41);
   position: sticky;
   top: 100px;
   left: 100px;
 }
 
 .quote {
-  color: #388db9;
+  color: #984e6c;
   position: absolute;
   font-size: 45px;
-  bottom: 590px;
+  bottom: 245px;
   right: 50px;
   -webkit-text-stroke: 3px black;
 }
 
 .hero {
-  background-image: url(../images/F100012197-close_up_of_heart_formed_with_binary_code.jpg);
-  height: 650px;
+  background-image: url(../images/cyber-network-protection-future-technology-background-free-vector.jpg);
+  height: 458px;
   background-size: cover;
   background-position: center;
 }
 
-/* styles for name */
+/* name styles */
 header {
   padding: 20px;
   background-color: rgb(41, 41, 41);
@@ -49,7 +49,7 @@ header h1 {
   display: inline;
 }
 
-/* styles for nav bar */
+/* nav bar styles */
 header a {
   text-decoration: none;
   color: brown
@@ -62,10 +62,17 @@ header nav {
 
 header nav ul li {
   display: inline;
-}
-
-header nav ul li {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 30px;
+  border-bottom: 3px solid;
+}
+
+/* Section styles */
+.section-title {
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 35px;
+  display: inline-block;
+  border-right: 5px solid brown;
 }
