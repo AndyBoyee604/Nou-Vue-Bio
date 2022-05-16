@@ -110,3 +110,31 @@ section div h2 {
 .work article img {
   width: 30%;
 }
+
+article a {
+  width: 10px;
+  height: 10px;
+}
+
+.contact {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  text-align: left;
+  border-bottom: 1px solid #465d98;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.resume {
+  margin: 50px auto;
+  padding-bottom: 50px;
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
